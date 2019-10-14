@@ -2,7 +2,7 @@
 Primero debemos crear el repositorio en github con el nombre de Practica1MiBlog
 1.Etiqueta mailto
  <a href="mailto:hzhindon@est.ups.edu.ec"> hzhindon@est.ups.edu.ec</a> &#8226; <a href="tel:+593999202926">(+593)
-      99 920 2926</a>
+      00000</a>
 2.Al menos que una pagina contenta una etiqueta <section>, <article> y <aside>. 
 <section>
     <h1>BIENVENIDOS</h1>
