@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Historia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+    <header class="logo"><a href="../../index.html"><img src="../../images/logo.png" alt="Computer" /></a>
+        <p>&emsp;<time datetime="2019-10-11">9 de Octubre</time></p>
+        <br />
+        <nav>
+        <ul>
+        <li><a href="../../Archivos/info/Que es un servidor.html">&iquest;Qu&eacute; son&#63;</a></li>
+        <li><a href="../../Archivos/info/Historia.html">Historia</a></li>
+        <li><a href="../../Archivos/varios/caracteristicas.html">Caracter&iacute;sticas</a></li>
+        <li><a href="../../Archivos/varios/partes.html">Partes</a></li>
+        <li><a href="../../Archivos/varios/video.html">Video</a></li>
+            </ul>
+        </nav>
+        <br />
+    </header>
+
+    <section>
+        <h1>Indice historia</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Servidor web: definición e hist&oacute;ria</a></li>
+                <li><a href="#tecnologia">La tecnología detrás de los servidores web</a></li>
+                <li><a href="#funciones">Otras funciones de los servidores web</a></li>
+                <li><a href="#soluciones">Soluciones de software libres para servidores web</a></li>
+                <li><a href="#sugerencia">Cómo encontrar el servidor web apropiado y configurarlo</a></li>
+                <li><a href="#funcionamiento">¿Cómo opera un servidor web?</a></li>
+                <li><a href="#apache">Servidor Apache HTTP</a></li>
+                <li><a href="#microsoft">Microsoft IIS</a></li>
+            </ul>
+        </nav>
+
+        <br />
+        <h2 id="introduccion">Servid&oacute;r</h2>
+        <p> Los servidores web (también conocidos como servidores HTTP) son un tipo de servidores utilizados para l&aacute; 
+            distribución (entrega) de c&oacute;ntenido web en redes internas o en Internet (“servidor” h&aacute;ce referencia al verbo
+            “servir”). Como parte de una red de ordenadores, un servidor web transfiere documentos a los llamados clientes
+            (del inglés clients), por ejemplo, una página web a un explor&aacute;dor.
+            En general, la pregunta “qué es un servidor web” puede referirse a dos cos&aacute;s: al software del servidor 
+            (es decir, al programa en sí) y al equipo en el que el software del servidor web se está ejecutando. Cuando
+            se trata de este último, se habla del host (un host puede alojar múltiples soluciones de software para
+            servidores web). A continuación, nos referiremos explícitamente a alguno de estos significados, ya sea al
+            software de servidor web/software servidor HTTP (o programa) o al host.</p>
+
+        <br />
+        <article>
+            <h3 id="tecnologia">Tecnologia detras de los servidores</h3>
+            <p>
+                    Principalmente, el s&oacute;ftware de un servidor HTTP es el encarg&aacute;do de proporcionar los datos para la 
+                    visualización del contenido web. Para ello, el progr&aacute;ma se comunica con un cliente web (por lo general,
+                     un navegador o un crawler de los motores de búsqueda).
+
+                    Para abrir una página web, el usuario solo tiene que escribir el URL correspondiente en la barra 
+                    de direcciones de su navegador web. El navegador envía una solicitud al servidor web, quien responde,
+                    por ejemplo, entregando una página HTML. Esta puede est&aacute;r alojada como un documentoestático en el host 
+                    o ser generada de forma dinámica, lo que significa que el servidor web tiene que ejecutar un código de
+                    programa (p. ej., Java o PHP) antes de tramitar su respuesta. El navegador interpreta la respuesta, lo
+                    que suele generar automáticamente más solicitudes al servidor a propósito de, por ejemplo, imágenes 
+                    integradas o archivos CSS.</p>
+            <aside>
+                <img src="../../Images/serverTec.jpg" alt="tecnologia" />
+            </aside>
+        </article>
+
+        <br />
+        <article>
+            <h3 id="funciones">Funciones del Servidor</h3>
+            <p>
+                    Además del softw&aacute;re del servid&oacute;r, un host puede contener otro tipo de programas, como por ejemplo un servidor FTP para la carga de 
+                    archivos o un servidor de base de dat&oacute;s para contenidos dinámicos (aunqu&eacute; para este propósito, cualquier host profesional 
+                    ofrecerá un hardware adici&oacute;nal). En general, existen diferentes tipos de servidores web que pueden ser utilizados para 
+                    numerosos propósitos, por ejemplo, los servidores de correo, los servidores de juegos o los servidores proxy.</p>
+                
+            <aside>
+                <img src="../../images/funciones.jpg" alt="Funciones" />
+            </aside>
+        </article>
+
+        <br />
+        <article>
+            <h3 id="soluciones">Soluciones en software libre para servidores</h3>
+            <p>La gama de programas para ejecutar un servid&oacute;r web es muy amplia y algunos están disponibles de forma 
+               gr&aacute;tuita en Internet. La ún&iacute;ca condición es, obv&iacute;amente, que el software sea compatible con el sistema 
+               operativo del host. La mayoría de los servidores web están basados en UNIX, es decir Linux, pero también
+               se ejecutan en Windows, a excepción de Windows IIS, que solo es ej&eacute;cutable en servidores Windows.</p>
+        </article>
+        <aside>
+            <img src="../../images/Soluciones.jpg" alt="Soluciones" />
+        </aside>
+    </section>
+
+    <br />
+    <section>
+        <h1 id="sugerencia">Servidor apropiado </h1>
+        <p>
+                Si quieres conseguir un servid&oacute;r web para tu proyecto onl&iacute;ne, lo primero que necesitarás es un host con 
+                suficiente espacio web. Un&aacute; de las opciones más populares es alquilar los recursos del servidor en algún 
+                proveedor. Especialmente aquellos usuarios con pocos o ningún conocimiento en gestión de servidores pueden
+                decantarse por opciones como el alojamiento compartido o el manag&eacute;d cloud hosting y configurar así su propio
+                servidor web. A diferencia de los servidores con acceso root, en los que el usuario no solo tiene todos los 
+                derechos de acceso, sino también la r&eacute;sponsabilidad completa de la seguridad del servidor, con un alojamiento 
+                gestionado el host se encarga de gran parte de la adm&iacute;nistración básica.</p>
+
+        <br />
+        <article>
+            <h3 id="funcionamiento">Como funciona un servidor</h3>
+            <p>Los servidores web funcionan b&aacute;jo el modelo cliente-servidor. Por ejemplo, si para visitar la página de inicio
+                 de IONOS introduces el d&oacute;minio “www.ionos.es” en la barra de direcciones de tu navegador, tendrá lugar el 
+                 siguiente proceso:
+
+                    Tan pronto como comienzas a escribir la dirección en la barra de direcciones, tu navegador envía la 
+                    información a un servidor de nombres de d&oacute;minio (también conocido como servidor DNS). Como parte 
+                    fund&aacute;mental del Domain Name System (DNS), el directorio central en Internet, un servidor de nombres de 
+                    dominio tiene acceso a la &aacute;genda completa de direcciones en Internet. A continuación, el nombre
+                    alfanumérico del dominio (www.ionos.es) se convierte en una dirección IP numérica (217.160.72.6) y 
+                    se envía de regreso al navegador.
+                    Acto seguido, el navegador realiza una solicitud de los contenidos de la página web. Esto se hace 
+                    contactando al servidor web con la d&iacute;rección IP numérica obtenida en el.
+                    El servidor web responde a la petición enviando un documento de la página web solicitada al navegador.
+                    Posteriormente, el navegador envía nuevamente una solicitud al servidor web, esta vez para otro documento
+                    que también forma parte de la web solicitada. Este proceso se repite hasta que todos los elementos se han
+                    transferido y la web se muestra compl&eacute;tamente en el navegador. Ahora bien, si haces clic en uno de los
+                    enlaces de la página de inicio de IONOS, se realizará una nueva solicitud al servidor web, iniciando 
+                    nuevamente el pr&oacute;ceso.
+            </p>
+            <aside>
+                <img src="../../images/funcionamiento.jpg" alt="Funcionamiento" />
+            </aside>
+            <br />
+        </article>
+
+        <article>
+            <h3 id="apache">Servidor Apache</h3>
+            <p> Servidor Apache HTTP: el servid&oacute;r web Apache se desarrolla permanentemente como un programa de código 
+                abierto disponible en numerosas versi&oacute;nes. Este programa modular es ejecutable en prácticamente cualquier
+                sistema operativo y es el servidor w&eacute;b más utilizado. Es apropiado para contenidos web dinámicos, pues 
+                facilita la integración de lenguajes de programación como PHP y Apache puede ejecutar otros programas 
+                bajo la interfaz CGI. Para facilitar la instalac&iacute;ón de un servidor web Apache, que puede resultar muy 
+                compleja, se pueden utilizar soluciones de software como XAMPP o LAMP, que se encargan en gran medida de 
+                su configuración. Además de Apache, estas sol&uacute;ciones contienen también diversos lenguajes de programación,
+                así como el software más adecuado para la gestión de bases de datos.
+            </p>
+            <aside>
+                <img src="../../images/apache.jpg" alt="Apache" />
+            </aside>
+            <br />
+        </article>
+
+        <article>
+            <h3 id="microsoft">Microsoft IIS:</h3>
+            <p> Microsoft Intern&eacute;t Information Services (IIS) es un paquete de software de servidor que 
+               incluye un servidor web. En sus com&iacute;enzos, IIS era una parte integral de los sistemas de Windows Server, 
+               ahora, en c&aacute;so de ser necesario, es posible instalar el programa en algunos sistemas operativos Windows.
+               Microsoft IIS solo puede ser util&iacute;zado en servidores Windows.
+            </p>
+            <aside>
+                <img src="../../images/micro.png" alt="Microsoft IIS:" />
+            </aside>
+            <br />
+        </article>
+
+    </section>
+
+    <footer>
+        <em>Copyright &copy; </em>Hugo David Zhindon Calle &#8226; Universidad Politecnica Salesiana &#8226;
+        <a href="mailto:hzhindon@est.ups.edu.ec"> hzhindon@est.ups.edu.ec</a> &#8226; <a href="tel:+593999202926">(+593)
+          99 920 2926</a>
+      </footer>
+
+</body>
+
+</html>
